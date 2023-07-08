@@ -1,6 +1,5 @@
 .bg-stadium {
-  background-image: url("../img/bg/bg-stadium.png"),
-    lightgray 50% / cover no-repeat;
+  background-image: url("../img/bg/bg-stadium.png");
 }
 
 .box {
@@ -31,7 +30,7 @@
   opacity: 0.699999988079071;
   background: var(--secondary-dark-800, #050e1e);
   border-radius: 5rem;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
 }
 
 .pill:hover {

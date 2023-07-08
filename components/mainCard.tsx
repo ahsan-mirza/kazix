@@ -1,9 +1,9 @@
 import React from "react";
-import Background from "../public/assets/img/bg/bg-stadium.png";
+
 
 export const MainCard = () => {
   return (
-    <div className="w-full block p-6 bg-white rounded-[1rem] shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 bg-no-repeat bg-cover">
+    <div className="w-full block p-6 bg-stadium rounded-[1rem] shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 bg-no-repeat bg-cover">
       <div className=" flex items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"

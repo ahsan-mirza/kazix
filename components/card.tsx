@@ -16,8 +16,8 @@ export const Card = () => {
           <Image
             priority
             src={Sports}
-            height={16}
-            width={16}
+            height={14}
+            width={14}
             alt="Follow us on Twitter"
           />
 
