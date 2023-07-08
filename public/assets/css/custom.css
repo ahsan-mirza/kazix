@@ -1,0 +1,48 @@
+.bg-stadium {
+  background-image: url("../img/bg/bg-stadium.png"),
+    lightgray 50% / cover no-repeat;
+}
+
+.box {
+  opacity: 0.699999988079071;
+  background: var(--secondary-dark-800, #050e1e);
+  border-radius: 0.5rem;
+}
+
+.score-box {
+  width: 42px;
+  height: 42px;
+}
+
+.score-size {
+  font-size: 1.5rem;
+}
+
+.bg-card {
+  background: var(--secondary-dark-200, #0f2757);
+}
+
+.time {
+  color: var(--secondary-light-950, #7e8da9);
+  font-size: 12px;
+}
+
+.pill {
+  opacity: 0.699999988079071;
+  background: var(--secondary-dark-800, #050e1e);
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+}
+
+.pill:hover {
+  background: var(--primary, #fbff20);
+  color: #050e1e;
+}
+
+.btn {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
+  border: 1.5px solid var(--secondary-dark-200, #0f2757);
+  background: var(--secondary-dark-50, #13316c);
+}
