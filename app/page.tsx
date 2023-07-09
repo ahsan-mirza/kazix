@@ -1,10 +1,19 @@
-import { MainCard } from "@/components/mainCard";
-import Image from "next/image";
+'use client'
+import { isMobile } from "react-device-detect";
+import { Main } from "@/components/Main";
+import { HydrationProvider, useHydrated } from "react-hydration-provider";
+
+function HydrationFixComponent() {
+  const hydrated = useHydrated();
+  return hydrated ? <Main/> : null;
+}
 
 export default function Home() {
   return (
-    <div>
-      <MainCard />
-    </div>
+    <HydrationProvider>
+      <main>
+        <HydrationFixComponent />
+      </main>
+    </HydrationProvider>
   );
 }

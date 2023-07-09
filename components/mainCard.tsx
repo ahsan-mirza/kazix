@@ -38,13 +38,13 @@ export const MainCard = () => {
         </a>
       </div>
 
-      <div className="flex justify-center items-center flex-col py-5">
+      <div className="flex justify-center items-center flex-col py-3">
         <div className="flex">
           <h5 className="font-bold">Tottenham</h5>
           <span className="mx-2">-</span>
           <h5 className="font-bold">Leicester City</h5>
         </div>
-        <div className="flex py-5 gap-x-4">
+        <div className="flex py-3 gap-x-4">
           <div className="score-box box flex justify-center items-center">
             <h2 className="font-bold score-size">4</h2>
           </div>

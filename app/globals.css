@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.activeOnMobile {
+  @media screen and (min-width: 800px) {
+    display: none;
+  }
+}
+
+.activeOnDesktop {
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}

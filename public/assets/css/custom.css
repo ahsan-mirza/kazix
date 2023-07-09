@@ -21,6 +21,10 @@
   background: var(--secondary-dark-200, #0f2757);
 }
 
+.bg-card:hover {
+  background: var(--secondary-dark-200, #122d63);
+}
+
 .time {
   color: var(--secondary-light-950, #7e8da9);
   font-size: 12px;
@@ -31,6 +35,7 @@
   background: var(--secondary-dark-800, #050e1e);
   border-radius: 5rem;
   padding: 1rem;
+  align-items: center;
 }
 
 .pill:hover {
@@ -39,9 +44,15 @@
 }
 
 .btn {
+  color: white;
   font-size: 0.8rem;
   padding: 0.5rem 0.5rem;
   border-radius: 8px;
   border: 1.5px solid var(--secondary-dark-200, #0f2757);
   background: var(--secondary-dark-50, #13316c);
+}
+.btn:hover {
+
+  border: 1.5px solid var(--secondary-dark-200, #122d63);
+  background: var(--secondary-dark-50, #122d63);
 }

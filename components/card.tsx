@@ -85,24 +85,24 @@ export const Card = () => {
       </div>
 
       <div className="grid grid-cols-10 gap-x-2">
-        <div className="flex justify-between pill rounded rounded-full p-2 col-span-3">
+        <div className="flex justify-between pill rounded-full px-4 py-2 col-span-3">
           <p className="text-xs font-bold">1</p>
           <p className="text-xs font-bold">1.05</p>
         </div>
-        <div className="flex justify-between pill rounded rounded-full p-2 col-span-3">
+        <div className="flex justify-between pill rounded-full px-4 py-2 col-span-3">
           <p className="text-xs font-bold">draw</p>
           <p className="text-xs font-bold">1.05</p>
         </div>
-        <div className="flex justify-between pill rounded rounded-full p-2 col-span-3">
+        <div className="flex justify-between pill rounded-full px-4 py-2 col-span-3">
           <p className="text-xs font-bold">1</p>
           <p className="text-xs font-bold">1.05</p>
         </div>
-        <div className="flex justify-center pill rounded rounded-full p-2 col-span-1">
+        <div className="flex justify-center pill rounded-full px-2 py-2 col-span-1">
           <Image
             priority
             src={ArrowDown}
-            height={32}
-            width={32}
+            height={24}
+            width={24}
             alt="Follow us on Twitter"
           />
         </div>
